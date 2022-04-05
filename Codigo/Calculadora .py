@@ -11,8 +11,10 @@ def multiplicación (a,b):
 def division(a,b):
     result=a/b
     print("La division de ",a," y ",b," es: ",result)
+
+"""("Bienvenido :D \n╔═══╗ ♪\n║███║ ♫\n║ (●) ♫\n╚═══╝♪♪")"""
 #Programa 
-print("Bienvenido :D")
+print("Bienvenido :D \n╔═══╗\n║███║\n║ 1 ║\n╚═══╝")
 while True:
     print("Opciones \n1)Suma de dos numeros \n2)Resta de dos numeros \n3)Multipliación de dos numeros \n4)División de dos numeros \n(Cualquier otro numero o letra para apagar)")
     option=int(input("Ingrese la opción: "))
