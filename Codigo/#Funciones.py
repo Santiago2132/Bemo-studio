@@ -9,7 +9,8 @@ def fibonacci(n):
         f=a+b
         a=b
         b=f
-    print("El número ",a," en fibonacci: ",f)
+        i=i+1
+    print("El número ",n," en fibonacci: ",f)
 
 def fibonaccis(n):
     a=0
@@ -20,10 +21,11 @@ def fibonaccis(n):
         f=a+b
         a=b
         b=f
+        i=i+1
         print(f)
 
 def collatz(a):
-    if((a*2)/100==0):
+    if((a%2)==0):
         result=a/2
         print("La secuencia de collatz de ",a,"es: ",result)
     else:
